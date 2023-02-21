@@ -1,0 +1,3 @@
+# environment variables:
+# command line:
+'afl-fuzz' '-m' 'none' '-i' '/home/fuzz/fuzzing_tcpdump/tcpdump-tcpdump-4.9.2/tests/' '-o' '/home/fuzz/fuzzing_tcpdump/out/' '-s' '123' '--' '/home/fuzz/fuzzing_tcpdump/install/sbin/tcpdump' '-vvvvXX' '-ee' '-nn' '-r' '@@'

@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /home/fuzzing_vlc2/vlc-3.0.8/install/bin/vlc -I "rc" "$@"

@@ -1,0 +1,13 @@
+audio_filter/spatializer/allpass.lo: audio_filter/spatializer/allpass.cpp \
+  audio_filter/spatializer/allpass.hpp \
+  audio_filter/spatializer/denormals.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
+  /usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h
+
+audio_filter/spatializer/allpass.hpp:
+
+audio_filter/spatializer/denormals.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h:
+
+/usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h:

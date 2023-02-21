@@ -1,0 +1,3 @@
+# environment variables:
+# command line:
+'afl-fuzz' '-i' '/home/fuzz/fuzzing_xpdf/pdf_examples/' '-o' '/home/fuzz/fuzzing_xpdf/out/' '-s' '123' '--' '/home/fuzz/fuzzing_xpdf/install/bin/pdftotext' '@@' '/home/fuzz/fuzzing_xpdf/output'
