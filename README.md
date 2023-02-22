@@ -27,7 +27,7 @@ github에 공유하고 마무리한다.
 
 ---
 
-[https://alkaline-agreement-90f.notion.site/parallel-fuzzing-cf0248e689c54c8887be76d4ce8fde49](https://www.notion.so/parallel-fuzzing-cf0248e689c54c8887be76d4ce8fde49)
+[연구 리포트 전문](https://www.notion.so/parallel-fuzzing-ba685025271045e28380ca505b9f87ab)
 
 ## 📚 연구 PPT 발표 자료
 
@@ -41,40 +41,40 @@ github에 공유하고 마무리한다.
 
 - [1] **AFLPlusPlus** ⇒ AFL++ fuzzer 파일
     
-              **test-instr.c ⇒ afl fuzzer test 파일**
+              test-instr.c ⇒ afl fuzzer test 파일
     
 - [2] **leveldb** ⇒ leveldb fuzzing과 관련된 파일들 모음
     
-              **afl_in(leveldb_fuzz_input)** ⇒ 코드 및 fuzz를 실행할 때 필요한 input 파일
+              afl_in(leveldb_fuzz_input) ⇒ 코드 및 fuzz를 실행할 때 필요한 input 파일
     
-              **src** ⇒  Fuzzing 할 때, 사용 했던 코드(cpp)파일
+              src ⇒  Fuzzing 할 때, 사용 했던 코드(cpp)파일
     
-              **libleveldb.a ⇒** compile 할 때 필요한 파일
+              libleveldb.a ⇒ compile 할 때 필요한 파일
     
-    crash가 발견되지 않아 **afl_out 폴더를 넣지 않았습니다**
+    crash가 발견되지 않아 afl_out 폴더를 넣지 않았습니다
     
-- [3-1-3] **xpdf** ⇒ xpdf fuzzing과 관련된 파일들 모음
+- [3-1-3] xpdf ⇒ xpdf fuzzing과 관련된 파일들 모음
     
-              **afl_in(xpdf_fuzz_input)** ⇒ fuzz를 진행할 때 필요한 input 파일
+              afl_in(xpdf_fuzz_input) ⇒ fuzz를 진행할 때 필요한 input 파일
     
-              **afl_out(xpdf_fuzz_output)** ⇒ fuzz를 진행할 때 생성된 output 파일
+              afl_out(xpdf_fuzz_output) ⇒ fuzz를 진행할 때 생성된 output 파일
     
-- [3-1-2] **tcpdump** ⇒ tcpdump fuzzing과 관련된 파일들 모음
+- [3-1-2] tcpdump ⇒ tcpdump fuzzing과 관련된 파일들 모음
     
-              **afl_in(tcpdump_fuzz_input)** ⇒ fuzz를 진행할 때 필요한 input 파일
+              afl_in(tcpdump_fuzz_input) ⇒ fuzz를 진행할 때 필요한 input 파일
     
-              **afl_out(tcpdump_fuzz_output)** ⇒ fuzz를 진행할 때 생성된 output 파일
+              afl_out(tcpdump_fuzz_output) ⇒ fuzz를 진행할 때 생성된 output 파일
     
-- [3-1-3] **libtiff ⇒ libtiff fuzz를 진행하고 나온 LCOV report 파일**
+- [3-1-3] libtiff ⇒ libtiff fuzz를 진행하고 나온 LCOV report 파일
     
     
 - [3-2] **vlc** ⇒ vlc fuzzing과 관련된 파일들 모음
     
-              **fuzzing_vlc(3.0.7_noPATCH)** ⇒ **CVE-2019-14776**번 취약점의 패치를 진행하지 않고 fuzz를 진행한 vlc 3.0.7
+             fuzzing_vlc(3.0.7_noPATCH) ⇒ CVE-2019-14776번 취약점의 패치를 진행하지 않고 fuzz를 진행한 vlc 3.0.7
     
-              **fuzzing_vlc(3.0.7_PATCHED)** ⇒ **CVE-2019-14776**번 취약점의 패치를 진행하고 fuzz를 진행한 vlc 3.0.7
+             fuzzing_vlc(3.0.7_PATCHED) ⇒ CVE-2019-14776번 취약점의 패치를 진행하고 fuzz를 진행한 vlc 3.0.7
     
-             **fuzzing_vlc(3.0.8_PATCHED)** ⇒ **CVE-2019-14776**번 취약점의 패치를 진행되고 fuzz를 진행한 vlc 3.0.8
+             fuzzing_vlc(3.0.8_PATCHED) ⇒ CVE-2019-14776번 취약점의 패치를 진행되고 fuzz를 진행한 vlc 3.0.8
     
     **vlc 공통 파일**<br>
     
