@@ -33,7 +33,7 @@ github에 공유하고 마무리한다.
 
 ---
 
-[확장 가능한 parallel fuzzing 인프라 구축 및 성능 비교 분석 최종 발표.pptx](README%20md%2028ad0ad5033f4f4197287ceaf53d6ace/%25ED%2599%2595%25EC%259E%25A5_%25EA%25B0%2580%25EB%258A%25A5%25ED%2595%259C_parallel_fuzzing_%25EC%259D%25B8%25ED%2594%2584%25EB%259D%25BC_%25EA%25B5%25AC%25EC%25B6%2595_%25EB%25B0%258F_%25EC%2584%25B1%25EB%258A%25A5_%25EB%25B9%2584%25EA%25B5%2590_%25EB%25B6%2584%25EC%2584%259D_%25EC%25B5%259C%25EC%25A2%2585_%25EB%25B0%259C%25ED%2591%259C.pptx)
+[확장 가능한 parallel fuzzing 인프라 구축 및 성능 비교 분석 최종 발표.pptx](https://github.com/bakukun/AFLPlusPlus_research/blob/main/presentation/%ED%99%95%EC%9E%A5%20%EA%B0%80%EB%8A%A5%ED%95%9C%20parallel%20fuzzing%20%EC%9D%B8%ED%94%84%EB%9D%BC%20%EA%B5%AC%EC%B6%95%20%EB%B0%8F%20%EC%84%B1%EB%8A%A5%20%EB%B9%84%EA%B5%90%20%EB%B6%84%EC%84%9D%20%EC%B5%9C%EC%A2%85%20%EB%B0%9C%ED%91%9C.pptx)
 
 ## 📚 Repository 주요 파일 소개
 
